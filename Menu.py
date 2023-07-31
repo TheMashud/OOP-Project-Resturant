@@ -20,7 +20,7 @@ class Pizza(Food):
 class Drinks(Food):
     def __init__(self, name, price, isCold = True) -> None:
         super().__init__(name, price)
-        self,isCold = isCold
+        self.isCold = isCold
 
 
 #composition
